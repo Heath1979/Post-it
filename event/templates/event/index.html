@@ -16,27 +16,26 @@
                     <div class="card mb-4 postholder">
                         <div class="card-body">
                             <div class="image-container">
-                            {% if "placeholder" in post.featured_image.url %}
-                                <a href="{% url 'post_detail' post.slug %}"><img loading="lazy" class="card-img-top" 
-                                    src="{% static 'images/default.png' %}" alt="placeholder image"> </a>
-                            {% else %}
-                                <a href="{% url 'post_detail' post.slug %}"><img loading="lazy" class="card-img-top" 
-                                    src=" {{ post.featured_image.url }}" alt="{{ post.title }}"> </a>
+                                {% if "placeholder" in post.featured_image.url %}
+                                <a href="{% url 'post_detail' post.slug %}"><img loading="lazy" class="card-img-top"
+                                        src="{% static 'images/default.webp' %}" alt="placeholder image"></a>
+                                {% else %}
+                                <a href="{% url 'post_detail' post.slug %}"><img loading="lazy" class="card-img-top"
+                                        src=" {{ post.featured_image.url }}" alt="{{ post.title }}"></a>
                                 {% endif %}
                                 <hr>
                             </div>
-                            <a href="{% url 'post_detail' post.slug %}" class="post-link d-flex justify-content-center align-items-center">
+                            <a href="{% url 'post_detail' post.slug %}"
+                                class="post-link d-flex justify-content-center align-items-center">
                                 {{ post.title }}</a>
-                                <p class="card-text">{{post.excerpt}}</p>
-                            
-
+                            <p class="card-text">{{post.excerpt}}</p>
                             <hr>
-                           <p class="card-text h6">{{ post.created_on}}
-                                </p>
+                            <p class="card-text h6">Happening on {{ post.event_start}}
+                            </p>
                         </div>
                     </div>
                 </div>
-          
+
                 {% endfor %}
 
             </div>

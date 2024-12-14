@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogggel</title>
+    <title>Post It</title>
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -22,9 +22,9 @@
    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
    <!-- Add Favicon -->
-   <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/favicon-180x180.png' %}" >
-   <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon/favicon-32x32.png' %}">
-   <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon/favicon-16x16.png' %}">
+   <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/' %}" >
+   <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/' %}">
+   <link rel="icon" type="image/png" sizes="16x16" href="{% static '/favicon/' %}">
 
    <!-- Google Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -37,9 +37,9 @@
     <nav class="navbar navbar-expand-lg navbar-light nav-bg">
         <div class="container-fluid">
             <div class="navbar-brand">
-                <img loading="lazy" src="{% static 'images/logo.webp' %}" width="30" height="30"
-            alt="Capital B on a metel button. Used as the Bloggel Logo.">
-            <span class="brand-text">Blogggel</span>
+               <!-- <img loading="lazy" src="{% static 'images/' %}" width="30" height="30"
+            alt="Capital B on a metel button. Used as the Bloggel Logo."> -->
+            <span class="brand-text">Post It</span>
             </div>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
@@ -104,17 +104,17 @@
         <!-- Social -->
         <p class="d-flex justify-content-around foot-text align-items-center">
             <!-- GitHub -->
-            <a class="foot-links" href="https://github.com/Sazzzel" target="_blank" rel="noopener"
-            aria-label="Visit my GitHub profile page (opens in a new tab)"><i class="fa-brands fa-github"></i></a>
+            <a class="foot-links" href="https://facebook.com" target="_blank" rel="noopener"
+            aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
             
             
             {% block Copyright %}
-            2024 Made by Sazzzel &copy;
+            &copy; Caffinated Coders 2024
             {% endblock Copyright %}
             
             <!-- LinkedIn -->
-            <a class="foot-links" href="https://www.linkedin.com/in/sarah-darlington-dev/" target="_blank" rel="noopener"
-            aria-label="Visit my LinkedIn page (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="foot-links" href="https://www.twitter.com" target="_blank" rel="noopener"
+            aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
         </p>
     </footer>
 

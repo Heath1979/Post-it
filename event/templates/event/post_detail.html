@@ -8,7 +8,7 @@
             <!-- Post title goes in these h1 tags -->
             <h1 class="post-title">{{ post.title }}</h1>
             <!-- Post author goes before the | the post's created date goes after -->
-            <p class="post-subtitle">{{ post.created_on }}</p>
+            <p class="post-subtitle">Come join us on {{ post.event_start }}</p>
         </div>
         <div class="d-none d-md-block masthead-image">
             {% if "placeholder" in post.featured_image.url %}
@@ -35,12 +35,15 @@
             </div>
         </div>
     </div>
-   
+    <hr>
+    <div class="masthead-text">
+        <p class="post-subtitle">This event will end {{ post.event_end }}</p>
+    </div>
     <!-- Displaying Comments -->
     <div class="container content-section comment-colour">
         <!-- Comments Section on the Left -->
         <div class="col-md-8">
-            <hr>
+            <br>
             <h3>Comments ({{ comment_count }}):</h3>
             <div>
                 <!-- Loop through comments -->
