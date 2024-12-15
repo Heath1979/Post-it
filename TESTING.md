@@ -117,7 +117,7 @@ Testing was carried out on desktop using a Chrome browser to ensure all forms ta
 
 ### Browser Compatibility 
 
-Happy Heath was tested on the following browsers. New users were created and old users data edited. All features were tested and no issues found:
+Post It was tested on the following browsers. New users were created and old users data edited. All features were tested and no issues found:
 
 - Chrome v131.0.6778.86
 - Edge v131.0.2903.51
@@ -127,7 +127,7 @@ Happy Heath was tested on the following browsers. New users were created and old
 
 ### Testing User Stories 
 
-User Stories are documented in the Happy Heath [Github Projects Board](link_to_project_board). User Stories are numbered, with Acceptance Criteria and Tasks detailed within. All features were tested to ensure that they provided the user with the expected output and action.
+User Stories are documented in the Post It [Github Projects Board](link_to_project_board). User Stories are numbered, with Acceptance Criteria and Tasks detailed within. All features were tested to ensure that they provided the user with the expected output and action.
 
 | User Story | Acceptance Criteria Met? | Tested | Response | Pass/Fail | Fix |
 | ---- | ---- | ----- | ---- | ----- | ---- |

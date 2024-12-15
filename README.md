@@ -297,7 +297,7 @@ Users are able to Create, Read, Update and Delete their shared information on Po
 
 ## Future Features
 
-- **Social account login**: Allowing popular social account login to the Happy Heath site will speed up the registration process.
+- **Social account login**: Allowing popular social account login to the Post It site will speed up the registration process.
 - **Business pages**: Allow for businesses to sign up and advertise when they will be attending events
 - **Add picture gallery to posts**: Allows the community to post images of there time spent at an event
 - **User profile**: Users can view a profile and amend as required.
@@ -314,7 +314,7 @@ Users are able to Create, Read, Update and Delete their shared information on Po
 - ???????? for design planning and wireframes.
 - [Cloudinary](https://cloudinary.com/) was used for cloud media storage of user uploaded images.
 - [Django](https://www.djangoproject.com/) was used as the Python framework for the site.
-- [Heroku](https://www.heroku.com) was used to host the Happy Heath application.
+- [Heroku](https://www.heroku.com) was used to host the Post It application.
 - [WAVE](https://wave.webaim.org/) to evaluate the accessibility of the site.
 - PostgreSQL database required to collect and recall users data supplied by the Code Institute.
 
