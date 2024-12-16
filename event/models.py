@@ -27,7 +27,7 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name="event_posts"
     )
     featured_image = CloudinaryField('image', default='placeholder')
-    County = models.ForeignKey(
+    county = models.ForeignKey(
         Location,
         on_delete=models.PROTECT,
         default=1,
